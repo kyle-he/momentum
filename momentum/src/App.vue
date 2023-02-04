@@ -3,6 +3,10 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <SidebarMenu />
+    <h1><strong>Placeholder Header</strong></h1>
+  <input type="url" name="url" id="userInput" placeholder="https://www.yelp.com/biz/your-business-here" size="100">
+
+  <p>Enter your Yelp Business URL</p>
   </div>
 </template>
 
@@ -18,6 +22,8 @@ export default {
     SidebarMenu
   },
 };
+
+
 </script>
 
 <style>
@@ -29,4 +35,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+h1{
+  text-align: center;
+}
+
 </style>
